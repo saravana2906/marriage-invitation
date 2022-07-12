@@ -1,0 +1,9 @@
+@font-face {
+    font-family: baroque;
+    src: url(/fonts/BaroqueScript.ttf);
+    font-weight: bold;
+  }
+
+  .apply-font {
+      font-family: baroque;
+  }
