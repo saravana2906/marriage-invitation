@@ -7,3 +7,14 @@
   .apply-font {
       font-family: baroque;
   }
+  
+  .header-color {
+	  color: green;
+  }
+
+  .red {
+      color: red;
+  }
+  #header {
+      margin: 5% 30% 0%;
+  }
