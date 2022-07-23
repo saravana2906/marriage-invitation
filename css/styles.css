@@ -22,11 +22,11 @@
       margin: 25px 0px;
       border-color: red;
   }
-  .flex-container{
+  .title-flex{
       display: flex;
       flex-direction: row;
   }
-  .flex-container > div {
+  .title-flex > div {
     margin: 10px;
     font-size: 30px;
   }
@@ -37,14 +37,72 @@
   img {
     border-radius: 50%;
   }
+  .image-flex{
+      margin-left: 10px;
+      display: flex;
+      flex-direction: row;
+  }
+  .image-margin {
+    margin-left: 20%;
+    margin-right: 20%;
+
+  }
+  .image-flex > div {
+    margin: 10px;
+    font-size: 30px;
+  }
+  .big-screen{
+      display: block;
+  }
+  .small-screen{
+      display: none;
+  }
+  .invitation {
+    margin-left: 15%;
+    margin-right: 20%;
+  }
+  #salutation {
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .msg-body{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px;
+    word-spacing: 10px;
+
+
+  }
   @media (max-width: 800px) {
 
-    .flex-container > div {
+    .title-flex > div {
         margin: 10px;
         font-size: 20px;
+      }
+      .image-flex > div {
+        margin: 10px;
+        font-size: 20px;
+      }
+      .image-margin {
+        margin-left: 10%;
+        margin-right: 10%;
       }
     
       #header {
         margin: 5% 20% 0%;
     }
+    .big-screen{
+        display: none;
+    }
+    .small-screen{
+        display: block;
+    }
+    .msg-body{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 15px;
+        font-weight: bold;
+      }
   }
