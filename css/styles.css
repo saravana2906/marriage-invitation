@@ -97,6 +97,10 @@
     .small-screen{
         display: block;
     }
+    .invitation {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
     .msg-body{
         margin-left: 5%;
         margin-right: 5%;
