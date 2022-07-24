@@ -59,21 +59,19 @@
   }
   .invitation {
     margin-left: 15%;
-    margin-right: 20%;
+    margin-right: 10%;
   }
   #salutation {
       font-size: 25px;
       font-weight: bold;
   }
   .msg-body{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 25px;
     font-weight: bold;
     padding: 30px;
     word-spacing: 10px;
-
-
   }
   @media (max-width: 900px) {
 
