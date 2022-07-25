@@ -4,8 +4,17 @@
     font-weight: bold;
   }
 
+  @font-face {
+    font-family: chocolate;
+    src: url(https://saravana2906.github.io/marriage-invitation/fonts/Chocolate.otf);
+    font-weight: bold;
+  }
+
   .apply-font {
       font-family: baroque;
+  }
+  .apply-choco-font {
+    font-family: chocolate;
   }
   
   .header-color {
