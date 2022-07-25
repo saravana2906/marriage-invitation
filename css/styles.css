@@ -99,11 +99,11 @@
     }
     .invitation {
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 0%;
       }
     .msg-body{
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 0%;
         font-size: 15px;
         font-weight: bold;
       }
