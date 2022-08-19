@@ -18,9 +18,11 @@ background-size: cover;
        <script src="https://kit.fontawesome.com/8c0796fd38.js" crossorigin="anonymous"></script>
        <script>
        function myFunction() {
-  let person = "Dear , "+prompt("Please enter your name", "Madam/Sir");
+  let person = prompt("Please enter your name", "Madam/Sir");
   if (person != null) {
-    document.getElementById("salutation").innerHTML = person;
+    document.getElementById("salutation").innerHTML ="Dear , "+ person;
+  } else {
+    document.getElementById("salutation").innerHTML = "Dear , Friend";
   }
 } 
 
